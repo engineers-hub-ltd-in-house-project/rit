@@ -1,0 +1,18 @@
+# Rit specific ignore patterns
+*.rit-tmp
+*.rit-backup
+rit-build/
+.rit-cache/
+
+# Development files
+*.log
+*.tmp
+.env.local
+.env.development
+
+# Editor specific
+.vscode/settings.json
+.idea/workspace.xml
+
+# Example: ignore all .bak files
+*.bak 
