@@ -1,6 +1,14 @@
-# Rit - A Graphical Git-like Version Control System
+<div align="center">
+  <img src="assets/rit-logo.png" alt="Rit Logo" width="200"/>
+  
+  # Rit - A Graphical Git-like Version Control System
 
-🎨 **Rit** is a educational git-like version control system built in Rust that provides beautiful, graphical representations of repository operations. Perfect for learning version control concepts!
+  🎨 **Rit** is a educational git-like version control system built in Rust that provides beautiful, graphical representations of repository operations. Perfect for learning version control concepts!
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+  [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/engineers-hub-ltd-in-house-project/rit)
+</div>
 
 ## ✨ Features
 
@@ -18,7 +26,7 @@
 
 ### Build from Source
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/engineers-hub-ltd-in-house-project/rit.git
 cd rit
 cargo build --release
 cargo install --path .
